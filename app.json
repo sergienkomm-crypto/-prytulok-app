@@ -6,7 +6,18 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "platforms": [
-      "android"
-    ]
+      "android",
+      "web"
+    ],
+    "plugins": [
+      "expo-font"
+    ],
+    "android": {
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "icon": "./assets/brand/logo.png",
+    "web": {
+      "favicon": "./assets/brand/logo.png"
+    }
   }
 }

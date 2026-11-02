@@ -164,3 +164,6 @@ web-build/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Browser test screenshots
+/test-results/
