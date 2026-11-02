@@ -1,0 +1,32 @@
+{
+  "name": "prytulok-app",
+  "license": "0BSD",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~58.0.22",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3",
+    "eslint": "^9.39.0",
+    "eslint-config-expo": "~58.0.4",
+    "expo-doctor": "^1.0.0"
+  },
+  "scripts": {
+    "start": "expo start --go",
+    "android": "expo start --go --android",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "doctor": "expo-doctor",
+    "check": "npm run typecheck && npm run lint",
+    "export:android": "expo export --platform android --output-dir dist/android"
+  },
+  "private": true,
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || ^26.0.0 || >=27.0.0"
+  }
+}

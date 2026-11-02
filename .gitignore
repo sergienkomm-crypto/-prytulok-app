@@ -147,3 +147,20 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Expo and local development
+.expo/
+web-build/
+/ios/
+/android/
+.metro-health-check*
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+*.p8
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Притулок",
+    "slug": "prytulok-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "android"
+    ]
+  }
+}
