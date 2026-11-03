@@ -6,7 +6,8 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "platforms": [
-      "android"
+      "android",
+      "web"
     ]
   }
 }
